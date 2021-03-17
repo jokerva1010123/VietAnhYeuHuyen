@@ -2,10 +2,6 @@ header{
     display: none;
 }
 
-audio{
-    display:none;
-}
-
 body{
     width: 800px;
     height: 900px;
