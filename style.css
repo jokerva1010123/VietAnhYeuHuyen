@@ -1,0 +1,26 @@
+body{
+    width: 800px;
+    height: 900px;
+    border: 1px solid black;
+    display: flex;
+}
+.control{
+    flex-basis: 100px;
+}
+.slide-container{
+    width: 600px;
+    height: 900px;
+    overflow: hidden;
+
+    
+}
+.slides{
+    display: flex;
+    transition: 0.5s all;
+    
+}
+.slide{
+    width: 600px;
+    height: 900px;
+    object-fit: cover;
+}
