@@ -1,0 +1,48 @@
+header{
+    display: none;
+}
+
+.love p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.anh{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.control{
+    flex-basis: 100px;
+}
+.slide-container{
+    width: 600px;
+    height: 800px;
+    overflow: hidden;    
+}
+.slides{
+    display: flex;
+    transition: 0.5s all; 
+}
+.slide{
+    width: 600px;
+    height: 800px;
+    object-fit: cover;
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+
