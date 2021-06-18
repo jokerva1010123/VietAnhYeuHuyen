@@ -56,3 +56,7 @@ a{
     display: block;
     position: relative;
 }
+
+.main a{
+    display: block;
+}
