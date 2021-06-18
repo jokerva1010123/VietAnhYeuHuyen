@@ -59,4 +59,5 @@ a{
 
 .main a{
     display: block;
+    position: relative;
 }
